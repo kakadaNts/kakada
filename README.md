@@ -1,2 +1,0 @@
-# kakada
- nts
