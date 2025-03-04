@@ -190,8 +190,17 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 30PX;
   gap: 20px;
+  border-radius: 20px;
 }
+ /* .Allprojects{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 20px;
+  margin-top: 30px;
+   } */
+
 /* .Projects {
   width: 400px;
 } */
@@ -222,5 +231,12 @@ nav {
 .Projects>img{
   width: auto;
   height: 250px;
+
+  
+}
+.Projects{
+  background: var(--dark-mode-S200);
+  padding: 20PX;
+  border-radius: 10PX;
   
 }
